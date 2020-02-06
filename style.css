@@ -1,0 +1,89 @@
+body{
+    
+    background-image: url("addressbook-pt2 (1).jpg"), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: 100% 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+ 
+  
+
+
+main{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+h1{
+    text-align: center;
+}
+
+
+
+.input{
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+   
+ }
+ 
+ .feild{
+     background: #fff;
+     padding: 10px;
+     border-radius: 5px;
+    
+ }
+
+
+.build{
+    
+    display: flex;
+    flex-direction: column;
+    
+    margin: auto;
+color: white;
+
+    background-color: rgb(179,178,176, 0.6);
+    border: 10px solid rgb(179,178,176, 0.6);
+    border-radius: 5px;
+    height: 400px;
+    width: 600px;
+}
+
+
+.contact-container {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    margin: 20px;
+    border: 5px;
+    
+  }
+
+
+.contact-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+
+    padding: 10px;
+  }
+
+  .fa-trash{
+      background-color: #fff;
+  }
+
+button{
+    margin-top: 100px;
+    width: 90%;
+    margin: auto;
+}
+
